@@ -36,11 +36,12 @@ GAN_facialGeneration_64pixel
 > 然后运行gan_new.ipynb，开始训练。<br>
 > 你可以随时终止运行，在运行的过程中会自动保存网络，保存路径为./my_net/。<br>
 训练过程中部分图片如下：(展示的分别是第1次，第101次，第1001次，第18001次，第72001次训练结果)<br>
-<img src="./imgs/examples-1.png" width="64" height="64" alt="图片加载失败"/>
-<img src="./imgs/examples-101.png" width="64" height="64" alt="图片加载失败"/>
-<img src="./imgs/examples-1001.png" width="64" height="64" alt="图片加载失败"/>
-<img src="./imgs/examples-18001.png" width="64" height="64" alt="图片加载失败"/>
-<img src="./imgs/examples-72001.png" width="64" height="64" alt="图片加载失败"/>
+![加载失败](./imgs/examples-1.png)
+![加载失败](./imgs/examples-101.png)
+![加载失败](./imgs/examples-1001.png)
+![加载失败](./imgs/examples-18001.png)
+![加载失败](./imgs/examples-72001.png)
+
 
 ## 生成gif图
 * 原理
@@ -67,6 +68,6 @@ GAN_facialGeneration_64pixel
 该项目参考于阿里云天池课堂中的代码，源代码是生成手写数字。<br>
 感谢以下项目：<br>
 * https://github.com/soumith/ganhacks
-* https://github.com/carpedm20/DCGAN-tensorflow
+* https://github.com/carpedm20/DCGAN-tensorflow<br>
 感谢女友的支持和陪伴（话说我哪来的女友）
 
