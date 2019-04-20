@@ -35,6 +35,12 @@ GAN_facialGeneration_64pixel
 > 修改其中的image_path参数为你的人脸数据集目录。<br>
 > 然后运行gan_new.ipynb，开始训练。<br>
 > 你可以随时终止运行，在运行的过程中会自动保存网络，保存路径为./my_net/。<br>
+训练过程中部分图片如下：(展示的分别是第1次，第101次，第1001次，第18001次，第72001次训练结果)<br>
+<img src="./imgs/examples-1.png" width="64" height="64" alt="图片加载失败"/>
+<img src="./imgs/examples-101.png" width="64" height="64" alt="图片加载失败"/>
+<img src="./imgs/examples-1001.png" width="64" height="64" alt="图片加载失败"/>
+<img src="./imgs/examples-18001.png" width="64" height="64" alt="图片加载失败"/>
+<img src="./imgs/examples-72001.png" width="64" height="64" alt="图片加载失败"/>
 
 ## 生成gif图
 * 原理
@@ -43,6 +49,7 @@ GAN_facialGeneration_64pixel
 > 这里我们生成的是由[0,0,0,0,.....,0]过渡到[1,1,1,1,1....1]的人脸变化的gif图。<br>
 * 实现
 > 运行show_one_img.ipynb，在testimg目录下生成了一个gif图<br>
+
 
 # 贡献者
 请阅读CONTRIBUTING.md 查阅为该项目做出贡献的开发者。
