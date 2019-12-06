@@ -2,8 +2,6 @@ GAN_facialGeneration_64pixel
 ============================
 用GAN生成人脸
 
-# 上手指南
-以下指南将帮助你在本地机器上安装和运行该项目，进行开发和测试。
 
 ## 安装要求
 * nvidia显卡
@@ -20,9 +18,6 @@ GAN_facialGeneration_64pixel
   pip3 install --index-url http://pypi.douban.com/simple --trusted-host pypi.douban.com --upgrade Pillow
 * cuda、cudnn(与tensorflow-gpu所对应的版本)
 
-
-## 安装步骤
-略
 
 # 测试
 ## 训练模型
@@ -64,19 +59,9 @@ gif的每一帧：<br>
 训练了一个晚上，从半夜两点到第二天中午十二点，晚上电脑风扇一直在响。共训练了72000次。<br>
 如果你想使用我已训练好的模型，可以联系我,email:1750686829@qq.com<br>
 
-# 版本控制
-版本控制是什么？
-
-# 作者
-此处留空，不敢自称作者
-
-# 版权说明
-无
-
 # 鸣谢
 该项目参考于阿里云天池课堂中的代码，源代码是生成手写数字。<br>
 感谢以下项目：<br>
 * https://github.com/soumith/ganhacks
 * https://github.com/carpedm20/DCGAN-tensorflow<br>
-感谢女友的支持和陪伴（话说我哪来的女友）
 
